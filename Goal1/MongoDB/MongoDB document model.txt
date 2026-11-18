@@ -1,29 +1,42 @@
-
 movies
 {
-  "movieId": 1,
-  "title": "Toy Story",
-  "year": 1995,
-  "genres": ["Adventure", "Animation", "Children", "Comedy", "Fantasy"],
-  "imdbId": 114709,
-  "tmdbId": 862
+“movieId”: 1,
+“title”: “Toy Story”,
+“year”: 1995,
+“imdbId”: 114709,
+“tmdbId”: 862
+}
+
+genres
+{
+“genreId”: 2,
+“genre”: “Adventure”
+}
+
+movie_genres
+{
+“movieId”: 1,
+“genreId”: 2
+}
+
+users
+{
+“userId”: 1,
+“country”: “Portugal”
 }
 
 ratings
 {
-  "userId": 432,
-  "movieId": 77866,
-  "rating": 4.5,
-  "timestamp": ISODate("2012-04-23T00:07:21Z")
+“userId”: 432,
+“movieId”: 77866,
+“rating”: 4.5,
+“timestamp”: ISODate(“2012-04-23T00:07:21Z”)
 }
 
 tags
 {
-  "userId": 2,
-  "movieId": 60756,
-  "tag": "funny",
-  "timestamp": ISODate("2015-10-24T19:29:54Z")
+“userId”: 2,
+“movieId”: 60756,
+“tag”: “funny”,
+“timestamp”: ISODate(“2015-10-24T19:29:54Z”)
 }
-
-users
-{ "userId": 432 }
