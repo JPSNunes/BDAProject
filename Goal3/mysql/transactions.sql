@@ -63,7 +63,7 @@ COMMIT;
 -- ==================================================
 
 DROP PROCEDURE IF EXISTS test_rollback;
-
+-- Delimitador passa ser $$ em vez de ; para permitir a criação do procedimento
 DELIMITER $$
 
 CREATE PROCEDURE test_rollback()
