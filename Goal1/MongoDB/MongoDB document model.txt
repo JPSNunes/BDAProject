@@ -21,8 +21,9 @@ movie_genres
 
 users
 {
-“userId”: 1,
-“country”: “Portugal”
+"userId": 1,
+"latitude": 40.71862834068687,
+"longitude": -7.827198594667862
 }
 
 ratings
